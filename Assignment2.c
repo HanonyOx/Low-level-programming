@@ -1,17 +1,14 @@
 #include <stdio.h>
 
 
-int main() { // main function
 
-
-int a = 1002983;
+int main() {
+int a = 1002398;
 int b = 100000;
-int Divide = a % b;
+int divide = a % b;
 
 
-printf("The result of %d % %d is = %d\", Divide);
-
-  
+printf("The remainder of %d %% %d is: %d\n", a, b, divide);
 
   return 0;
 }
